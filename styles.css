@@ -64,3 +64,44 @@ body {
     transform: scale(0.98); /* Scale down the size slightly */
 }
 
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Adjust the z-index as needed */
+}
+
+.navbar-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+}
+
+.navbar-links ul li {
+    margin-right: 1rem;
+}
+
+.navbar-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-family: Oswald, sans-serif; /* Using Oswald font */
+    font-weight: 600; /* Increased font weight */
+    font-size: 1.5rem; /* Adjust font size */
+}
+
+.navbar-links ul li a:hover {
+    color: #a0a0a0;
+}
+
+/* Highlight Active Page */
+.navbar-links ul li .nav-link.active {
+    font-weight: bold;
+    color: #ffcc00; /* Highlight color for the active page */
+}
