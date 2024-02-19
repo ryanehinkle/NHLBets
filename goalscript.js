@@ -234,7 +234,12 @@ function setContent() {
         const outof5 = lineElements[5].split('/')[0].slice(1);
         const outof10 = lineElements[6].split('/')[0].slice(1);
         const streak = lineElements[7].slice(1);
-        const tooltipText = `Hit the ${prop} in:\n${outof5} of last five games\n${outof10} of last ten games\n${streak} straight games`;
+
+        if (prop === "goal") {
+            tooltipText = `Goal in:\n${outof5} of last five games\n${outof10} of last ten games\n${streak} straight games`;
+        } else {
+            tooltipText = `No goal in:\n${outof5} of last five games\n${outof10} of last ten games\n${streak} straight games`;
+        };
 
         // Add tooltip
         lineContainer.setAttribute('title', tooltipText);
