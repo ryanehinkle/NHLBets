@@ -73,6 +73,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000; /* Adjust the z-index as needed */
+    font-family: "Oswald", sans-serif;
 }
 
 .navbar-links ul {
@@ -81,27 +82,39 @@ body {
     margin: 0;
     display: flex;
     justify-content: center; /* Center the content horizontally */
+    font-family: "Oswald", sans-serif;
 }
 
 .navbar-links ul li {
     margin-right: 1rem;
+    font-family: "Oswald", sans-serif;
 }
 
 .navbar-links ul li a {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
-    font-family: Oswald, sans-serif; /* Using Oswald font */
+    font-family: "Oswald", sans-serif; /* Use Oswald font */
     font-weight: 600; /* Increased font weight */
     font-size: 1.5rem; /* Adjust font size */
 }
 
 .navbar-links ul li a:hover {
+    font-family: "Oswald", sans-serif;
     color: #a0a0a0;
 }
 
 /* Highlight Active Page */
 .navbar-links ul li .nav-link.active {
+    font-family: "Oswald", sans-serif;
     font-weight: bold;
     color: #ffcc00; /* Highlight color for the active page */
 }
+
+.center {
+    display: block; /* Change the display to block */
+    width: fit-content; /* Set a width to the element */
+    margin: 0 auto; /* Center the element horizontally */
+    text-align: center; /* Horizontally center the content inside the element */
+    margin-bottom: 20px; /* Optional: Add some space from the top */
+  }
