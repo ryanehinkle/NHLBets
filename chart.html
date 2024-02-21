@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All-Time Chart</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Include external CSS file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="nhl.svg"> <!-- Add favicon -->
+</head>
+<nav class="navbar">
+    <div class="navbar-links">
+        <ul>
+            <li><a href="index.html" class="nav-link">Shots</a></li>
+            <li><a href="goals.html" class="nav-link">Goals</a></li>
+            <li><a href="shotReads.html" class="nav-link">Reads</a></li>
+            <li><a href="chart.html" class="nav-link">Chart</a></li>
+        </ul>
+    </div>
+</nav>
+<body>
+    <div class="center">
+        <iframe width="951" height="588" seamless frameborder="0" scrolling="no" 
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vShB_MFMfkIDGuu9ZVlzJWeh9XnvNCJ7Oop_gQ7mswbbhGY9QgUXLK9utjyo-wRrs7KiL1gc5HhO9c-/pubchart?oid=1715945935&amp;format=interactive">
+        </iframe>
+    </div>
+
+    <script>
+        // Add this JavaScript to highlight the active link based on the current page
+    document.addEventListener('DOMContentLoaded', function() {
+    var currentUrl = window.location.href;
+    var navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(function(navLink) {
+        if (navLink.href === currentUrl) {
+            navLink.classList.add('active');
+        }
+    });
+    });
+    </script>
+</body>
+</html>
