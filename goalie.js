@@ -1,30 +1,12 @@
 // Paste the contents into this variable as a multiline string
-const contentText = `LAK Cam Talbot 24 Saves downward (1) (27) (17) (#28)
-BOS Jeremy Swayman 29 Saves downward (3) (29) (34) (#27)
-TOR Ilya Samsonov 28 Saves upward (4) (25) (25) (#9)
-MTL Jake Allen 31 Saves upward (7) (33) (33) (#15)
-NYI Ilya Sorokin 31 Saves downward (8) (34) (33) (#22)
-MIN Marc-Andre Fleury 26 Saves downward (9) (26) (22) (#23)
-VAN Thatcher Demko 29 Saves upward (11) (29) (27) (#20)
-VGK Adin Hill 29 Saves stable (11) (28) (27) (#8)
-CAR Pyotr Kochetkov 28 Saves upward (12) (24) (29) (#13)
-NJD Nicolas Daws 28 Saves downward (13) (29) (30) (#26)
-DET Alex Lyon 29 Saves downward (14) (30) (30) (#25)
-CGY Jacob Markstrom 30 Saves downward (15) (29) (28) (#3)
-PHI Samuel Ersson 29 Saves stable (16) (24) (28) (#10)
-SEA Joey Daccord 30 Saves downward (17) (29) (33) (#19)
-OTT Anton Forsberg 27 Saves downward (18) (25) (26) (#16)
-DAL Jake Oettinger 28 Saves stable (21) (27) (24) (#7)
-STL Jordan Binnington 30 Saves upward (23) (30) (34) (#24)
-WSH Charlie Lindgren 30 Saves stable (24) (28) (26) (#1)
-SJS Kaapo Kahkonen 32 Saves upward (24) (31) (39) (#18)
-EDM Stuart Skinner 29 Saves upward (25) (26) (30) (#12)
-COL Alexander Georgiev 30 Saves upward (26) (27) (30) (#5)
-NSH Juuse Saros 27 Saves upward (29) (28) (32) (#32)
-TBL Andrei Vasilevskii 29 Saves downward (32) (27) (28) (#14)
-FLA Sergei Bobrovsky 27 Saves upward (33) (26) (30) (#29)
-ANA John Gibson 28 Saves upward (33) (27) (22) (#4)
-NYR Igor Shesterkin 32 Saves upward (37) (27) (36) (#2)`;
+const contentText = `WSH Darcy Kuemper 30 Saves downward (0) (29) (29) (#8)
+LAK Cam Talbot 27 Saves downward (1) (27) (17) (#3)
+BOS Linus Ullmark 29 Saves upward (1) (31) (28) (#23)
+OTT Anton Forsberg 25 Saves downward (2) (26) (23) (#29)
+DAL Scott Wedgewood 27 Saves upward (14) (27) (22) (#14)
+SEA Philipp Grubauer 26 Saves downward (18) (24) (21) (#20)
+EDM Stuart Skinner 30 Saves upward (29) (26) (31) (#4)
+NYI Ilya Sorokin 31 Saves downward (35) (33) (29) (#13)`;
 
 // Store content as an array instead of a string
 const contentArray = contentText.split('\n');
