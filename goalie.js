@@ -1,12 +1,5 @@
 // Paste the contents into this variable as a multiline string
-const contentText = `WSH Darcy Kuemper 30 Saves downward (0) (29) (29) (#8)
-LAK Cam Talbot 27 Saves downward (1) (27) (17) (#3)
-BOS Linus Ullmark 29 Saves upward (1) (31) (28) (#23)
-OTT Anton Forsberg 25 Saves downward (2) (26) (23) (#29)
-DAL Scott Wedgewood 27 Saves upward (14) (27) (22) (#14)
-SEA Philipp Grubauer 26 Saves downward (18) (24) (21) (#20)
-EDM Stuart Skinner 30 Saves upward (29) (26) (31) (#4)
-NYI Ilya Sorokin 31 Saves downward (35) (33) (29) (#13)`;
+const contentText = ``;
 
 // Store content as an array instead of a string
 const contentArray = contentText.split('\n');
